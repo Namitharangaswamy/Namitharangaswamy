@@ -1,3 +1,6 @@
+Task 7.5: Write the code for the traffic light control system. The code should implement the
+state machine to control the sequence of the lights
+
 import time
 
 class TrafficLightControlSystem:
