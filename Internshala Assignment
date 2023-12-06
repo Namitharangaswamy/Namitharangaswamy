@@ -1,0 +1,15 @@
+Write a test code to check each functions and ensure that your entire code follows
+the state transition diagram and manages the traffic lights as expected.
+
+def test_traffic_light_system():
+    traffic_system = TrafficLightControlSystem()
+
+    try:
+        print("Traffic Light System Simulation Starting...")
+        traffic_system.run_traffic_light_system()
+
+    except KeyboardInterrupt:
+        print("Simulation stopped by the user.")
+
+if __name__ == "__main__":
+    test_traffic_light_system()
